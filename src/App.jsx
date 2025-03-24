@@ -1,9 +1,15 @@
 import "./App.css";
+import Header from "./components/header";
+import PageContainer from "./components/PageContainer";
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>hello world</h1>
+      <PageContainer>
+        <Header />
+      </PageContainer>
     </div>
   );
 }
+
+export default App;
