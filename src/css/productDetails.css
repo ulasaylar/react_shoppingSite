@@ -1,0 +1,60 @@
+.detail-cont {
+  margin-top: 2rem;
+}
+
+.detail-cont img {
+  width: 45rem;
+  height: 60rem;
+}
+
+.right-detail-cont {
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 3rem;
+}
+
+.right-detail-cont h1 {
+  font-weight: 400;
+}
+.right-detail-cont h2 {
+  font-weight: 400;
+}
+.right-detail-cont h3 {
+  font-size: 7rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.sub-detail-cont {
+  display: flex;
+  align-items: center;
+}
+
+.sub-detail-icon {
+  font-size: 7rem;
+  font-weight: 400;
+  color: #ef9651;
+  cursor: pointer;
+}
+
+.sub-detail-icon:first-child {
+  margin-right: 1rem;
+}
+
+.sub-detail-icon:last-child {
+  margin-left: 1rem;
+}
+
+.sub-detail-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-basket-button {
+  padding: 3rem 0 3rem 0;
+  width: 20rem;
+}

@@ -1,13 +1,23 @@
 import React from "react";
 import "../css/header.css";
 import { FaShoppingBasket } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex-row" style={{ justifyContent: "space-between" }}>
       <div className="flex-row">
-        <img className="logo" src="./src/images/ico.ico" alt="" />
-        <p className="logo-text">Boho & Bag</p>
+        <img
+          onClick={() => navigate("/")}
+          className="logo"
+          src="./src/images/ico.ico"
+          alt=""
+        />
+        <p onClick={() => navigate("/")} className="logo-text">
+          Boho & Bag
+        </p>
       </div>
 
       <div className="flex-row">
