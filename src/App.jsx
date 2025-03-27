@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header";
 import PageContainer from "./components/PageContainer";
 import RouterConfig from "./config/RouterConfig";
+import Loading from "./components/Loading";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <PageContainer>
         <Header />
         <RouterConfig />
+        <Loading />
       </PageContainer>
     </div>
   );
