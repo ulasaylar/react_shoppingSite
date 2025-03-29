@@ -7,13 +7,15 @@ import Product from "./Product";
 function ProductList() {
   const dispatch = useDispatch();
   const { products } = useSelector((store) => store.product);
-  console.log(products);
 
   useEffect(() => {
     dispatch(getAllProducts());
   }, []);
   return (
-    <div className="flex-row" style={{ flexWrap: "wrap" }}>
+    <div
+      className="flex-row"
+      style={{ flexWrap: "wrap", backgroundColor: "transparent" }}
+    >
       {products &&
         products.map((product) => {
           return <Product key={product.id} product={product} />;
