@@ -16,6 +16,11 @@
   justify-content: center;
 }
 
+.drawer .MuiDrawer-paper {
+  background-color: #242424;
+  color: #fff;
+}
+
 .drawer-cont {
   display: flex;
   flex-direction: row;
@@ -36,7 +41,7 @@
 
 .drawer-third-row {
   font-weight: 700;
-  color: #ef9651;
+  color: #e65c00;
 }
 
 .basket-total-cont {
