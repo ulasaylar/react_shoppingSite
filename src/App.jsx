@@ -43,9 +43,11 @@ function App() {
                 </div>
               );
             })}
-          <div className="basket-total-cont">
-            <p>Sepet Tutarı: {totalAmount}</p>
-          </div>
+          {totalAmount > 0 && (
+            <div className="basket-total-cont">
+              <p>Sepet Tutarı: {totalAmount.toFixed(2)}</p>
+            </div>
+          )}
         </Drawer>
       </PageContainer>
     </div>
